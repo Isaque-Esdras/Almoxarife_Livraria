@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estoque.css">
+    <title>Livraria Ravelo</title>
+</head>
+<body>
+
+    <header><h1>Livraria Ravelo</h1></header>
+
+    <div id="produtoValor">
+
+        <span><h3>Adicione ou Remova Livros <br>Almoxarifado</h3></span>
+
+        <label for="PRODUTO">PRODUTO:</label>
+        <input type="text" id="texto">
+        <label for="VALOR">VALOR:</label>
+        <input type="number" name="number" id="numero">
+
+        <div id="but">
+            <button onclick="produto.adicionar()">ADICIONAR</button>
+        </div>
+    </div>
+
+    
+
+    <div id="atributos">
+
+        <table border="1">
+
+            <thead>
+                    <td>ID</td>
+                    <td>PRODUTO</td>
+                    <td>VALOR</td>
+                    <td>AÇÕES</td>
+            </thead>
+            <tbody id="tbody">
+                
+                
+            </tbody>
+
+
+        </table>
+
+
+    </div>
+
+
+
+
+
+    <script src="./estoque.js"></script>
+</body>
+</html>

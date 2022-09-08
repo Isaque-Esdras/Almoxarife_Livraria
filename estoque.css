@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+}
+
+
+body{
+    letter-spacing: 1px;
+    background: rgb(254, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    text-align: center;
+    background: rgb(3, 237, 237);
+}
+
+div#produtoValor{
+
+   padding: 30px;
+}
+
+input#texto{
+    border-radius: 20px;
+    border: 1px solid lightblue;
+    padding: 10px;
+    width: 100%;
+    color: darkcyan;
+    font-size: 13pt;
+}
+
+span{
+    font-size: 18pt;
+}
+
+input#numero{
+    border-radius: 20px;
+    border: 1px solid lightblue;
+    padding: 10px;
+    width: 100%;
+    color: darkcyan;
+    font-size: 13pt;
+}
+
+div#atributos{
+    font-size: 16pt;
+    padding: 30px;
+    width: 95%;
+    
+}
+
+table{
+
+    text-align: center;
+    width: 100%;
+    
+}
+
+button{
+
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgba(0, 255, 255, 0.499);
+    width: 200px;
+}
+
+button:hover{
+    background-color: rgb(35, 245, 245);
+}
+
+div#but{
+    padding: 10px;
+}
